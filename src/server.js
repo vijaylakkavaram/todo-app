@@ -131,6 +131,6 @@ app.get('/health', (req, res) => res.json({ status: 'ok', uptime: process.uptime
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, '../public/index.html')));
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log(`🚀 Task Manager running on http://localhost:${PORT}`));
 
+ 
 module.exports = app;

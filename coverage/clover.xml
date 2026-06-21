@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1782057436351" clover="3.2.0">
-  <project timestamp="1782057436351" name="All files">
-    <metrics statements="77" coveredstatements="77" conditionals="59" coveredconditionals="53" methods="24" coveredmethods="23" elements="160" coveredelements="153" complexity="0" loc="77" ncloc="77" packages="1" files="1" classes="1"/>
+<coverage generated="1782065110653" clover="3.2.0">
+  <project timestamp="1782065110653" name="All files">
+    <metrics statements="76" coveredstatements="76" conditionals="59" coveredconditionals="53" methods="23" coveredmethods="22" elements="158" coveredelements="151" complexity="0" loc="76" ncloc="76" packages="1" files="1" classes="1"/>
     <file name="server.js" path="/Users/lvvijaykumar/todo-app/src/server.js">
-      <metrics statements="77" coveredstatements="77" conditionals="59" coveredconditionals="53" methods="24" coveredmethods="23"/>
+      <metrics statements="76" coveredstatements="76" conditionals="59" coveredconditionals="53" methods="23" coveredmethods="22"/>
       <line num="1" count="1" type="stmt"/>
       <line num="2" count="1" type="stmt"/>
       <line num="4" count="1" type="stmt"/>
@@ -79,7 +79,6 @@
       <line num="128" count="1" type="stmt"/>
       <line num="131" count="1" type="stmt"/>
       <line num="133" count="1" type="cond" truecount="2" falsecount="0"/>
-      <line num="134" count="1" type="stmt"/>
       <line num="136" count="1" type="stmt"/>
     </file>
   </project>
