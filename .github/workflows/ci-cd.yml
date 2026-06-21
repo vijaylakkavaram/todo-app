@@ -32,7 +32,7 @@ jobs:
 
       - name: Check server starts OK
         run: |
-          node src/server.js &
+          node src/index.js &
           SERVER_PID=$!
           sleep 3
           curl -f http://localhost:3000/health || (echo "Health check failed" && kill $SERVER_PID && exit 1)
